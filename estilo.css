@@ -1,0 +1,94 @@
+body {
+	background-image: url("figuras/fundo.png");
+}
+
+div.conteudo, .referencia, #integrantes {
+	margin: 0 auto;
+	max-height: 648px;
+	max-width: 1592px;
+	color: #d4d2d2;
+}
+
+h1.conteudo {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p.txtpg1 {
+	color: #ffffff;
+	text-align: left;
+	font-family: arial;
+	font-size: 11pt;
+	letter-spacing: 1px;
+}
+
+details {
+	display: block;
+	color: #ffffff;
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.menu2 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.menu li {
+	float: right;
+}
+
+ul.menu2 li {
+	float: right;
+}
+
+ul.menu a:link, ul.menu a:visited {
+	display: block;
+	max-width: 508px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+ul.menu2 a:link, ul.menu2 a:visited {
+	display: block;
+	max-width: 376px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+ul.menu a:hover {
+	background-color: #ffffff25;
+}
+
+ul.menu2 a:hover {
+	border-width: 1px;
+	border-color: #ffffff;
+	border-style: solid;
+}
+
+summary {
+	border-style: solid;
+}
+
+table tr.imagem {
+	background-color: #00000070; 
+}
+
+table caption.referencia{
+	font-family: arial;
+	text-align: center;
+	font-size: 24px;
+	font-style: normal;
+}
